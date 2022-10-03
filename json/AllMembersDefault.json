@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Ranit Pradhan",
+        "fields": "Wireless, Automotive",
+        "image": "./images/defaultImages.jpg",
+        "link": ""
+      },
+      {
+        "name": "Athul Menon",
+        "fields": " Firmware",
+        "image": "./images/defaultImages.jpg",
+        "link": ""
+      },
+      {
+        "name": "Aswin C",
+        "fields": "Firmware",
+        "image": "./images/defaultImages.jpg",
+        "link": ""
+      },
+      {
+        "name": "Indraraj Biswas",
+        "fields": "Wireless, SCADA",
+        "image": "./images/defaultImages.jpg",
+        "link": ""
+      },
+      {
+        "name": "Nidhin Naushad",
+        "fields": "Wireless",
+        "image": "./images/defaultImages.jpg",
+        "link": ""
+      },
+      {
+        "name": "Saurav Panigrahi",
+        "fields": "SCADA, Embedded",
+        "image": "./images/defaultImages.jpg",
+        "link": ""
+      },
+      {
+        "name": "Sreesankar S",
+        "fields": "Embedded, Wireleess",
+        "image": "./images/defaultImages.jpg",
+        "link": ""
+      },
+      {
+        "name": "Narikodan Hridul",
+        "fields": "Wireless",
+        "image": "./images/defaultImages.jpg",
+        "link": ""
+      },
+      {
+        "name": "Gautham JB",
+        "fields": "Wireless",
+        "image": "./images/defaultImages.jpg",
+        "link": ""
+      },
+      {
+        "name": "Ghan Shyam",
+        "fields": "Firmware, Embedded",
+        "image": "./images/defaultImages.jpg",
+        "link": ""
+      },
+      {
+        "name": "Kiran SP",
+        "fields": "Automotive",
+        "image": "./images/defaultImages.jpg",
+        "link": ""
+      },
+      {
+        "name": "Archit Kak",
+        "fields": "Automotive",
+        "image": "./images/defaultImages.jpg",
+        "link": ""
+      }
+]

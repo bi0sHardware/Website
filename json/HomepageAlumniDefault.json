@@ -1,0 +1,27 @@
+[
+    {
+      "name": "K M Keethana",
+      "fields": "wireless, automotive",
+      "image": "./images/defaultImages.jpg",
+      "link": ""
+    },
+    {
+      "name": "Ashwin Nambiar",
+      "fields": "SCADA",
+      "image": "./images/defaultImages.jpg",
+      "link": ""
+    },
+    {
+      "name": "Hariprasad KV",
+      "fields": "wireless, automotive",
+      "image": "./images/defaultImages.jpg",
+      "link": ""
+    },
+    {
+      "name": "Arya Sudharshan",
+      "fields": "Embedded",
+      "image": "./images/defaultImages.jpg",
+      "link": ""
+    }
+  ]
+  
