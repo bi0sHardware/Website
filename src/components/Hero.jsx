@@ -1,6 +1,9 @@
 import styles from "../style";
 import { WebSecurity } from "../assets/";
 import styled from "@emotion/styled";
+import Button from "./Button.jsx";
+import {Link} from "react-router-dom";
+import React from "react";
 
 const HeroContainer = styled.div`
   .breathe {
@@ -76,11 +79,17 @@ const Hero = () => {
             <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
               We care about
               <br className="sm:block hidden" />
-              <span className="text-gradient ml-3 sm:ml-0">Security</span>
+              <span className="text-gradient ml-3 sm:ml-0">
+                Security
+              </span>
             </h1>
             <div className="ss:flex hidden md:mr-4 mr-0"></div>
           </div>
-
+          <Link to="https://forms.gle/nfEkKCeVb5hjT8sHA" target="_blank" className="my-4">
+              <span className="rounded-full text-gradient bg-transparent border-2 px-[1rem] py-2 text-lg border-cyan-700 text-cyan-100 hover:text-sky-500 text-semibold">
+                Join us
+              </span>
+          </Link>
           <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
             We're a team of enthusiasts working on securing devices from attacks
             that come from the physical device rather than the software the
