@@ -85,11 +85,11 @@ const Hero = () => {
             </h1>
             <div className="ss:flex hidden md:mr-4 mr-0"></div>
           </div>
-          <Link to="https://forms.gle/nfEkKCeVb5hjT8sHA" target="_blank" className="my-4">
+          <a href="https://forms.gle/nfEkKCeVb5hjT8sHA" target="_blank" className="my-4">
               <span className="rounded-full text-gradient bg-transparent border-2 px-[1rem] py-2 text-lg border-cyan-700 text-cyan-100 hover:text-sky-500 text-semibold">
                 Join us
               </span>
-          </Link>
+          </a>
           <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
             We're a team of enthusiasts working on securing devices from attacks
             that come from the physical device rather than the software the
