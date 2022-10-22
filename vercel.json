@@ -1,0 +1,7 @@
+{
+  "redirects": [
+    { "source": "/", "destination": "/" },
+    { "source": "/join-us", "destination": "https://forms.gle/nfEkKCeVb5hjT8sHA" },
+    { "source": "/team", "destination": "/team" }
+  ]
+}
