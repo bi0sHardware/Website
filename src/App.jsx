@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import styles from "./style";
-import { Footer, Navbar, Hero } from "./components";
+import { Footer, Navbar } from "./components";
 import Home from "./Home";
 import Team from "./Team";
-import React from "react";
+import React, {useEffect} from "react";
 import ScrollToTop from "../ScrollToTop";
 
 export default function App() {
@@ -26,6 +26,7 @@ export default function App() {
                 <Routes>
                   <Route exact path="/" element={<Home />} />
                   <Route exact path="/team" element={<Team />} />
+                  <Route path='/join-us' element={<RedirectToForms />} />
                 </Routes>
                 <Footer />
               </div>
@@ -35,4 +36,11 @@ export default function App() {
       </BrowserRouter>
     </>
   );
+}
+
+const RedirectToForms = () => {
+  useEffect(() => {
+    window.location.href = "https://forms.gle/nfEkKCeVb5hjT8sHA";
+  }, [])
+  return null;
 }
